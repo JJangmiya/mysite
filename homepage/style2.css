@@ -1,0 +1,336 @@
+*{
+    list-style: none;
+    text-decoration: none;
+    border-collapse: collapse;
+    margin:0px;
+    padding:0px;
+    color:black;
+}   
+#main{
+    background: gray;
+    margin-top: 10px;
+}
+#main h1{
+    font-size: 50px;
+    font-weight: bolder;
+}
+.intro{
+    margin-left: 150px;
+    width: 1200px;
+    height: 1000px;
+    
+ 
+}
+
+.header_ad{
+    float: right;
+    width: 800px;
+    height: 110px;
+    margin-top: 5px;
+    border: 1px solid #ddd;
+}
+.searchbox{
+    width: 300px;
+    height: 50px;
+    border-radius: 5px;
+    margin-top: 24px;
+    border: 1px;
+    
+    
+}
+.searchbox form input{
+    border: 1px solid gray;
+    width:250px;
+    height:40px;
+    color: black;
+    padding-left : 10px;
+    border-radius: 5px;
+    
+}
+.searchbox form span{
+    width:40px;
+    color: black;
+    font-weight: bold;
+    cursor: pointer;
+    
+}
+
+.header{
+    
+    width: 1200px;
+    height: 150px;
+    
+}
+
+.nav{
+    display: flex;
+    width: 1200px;
+    margin: auto;
+   
+}
+
+
+.nav li{
+    flex:1;
+    text-align: center;
+    margin-top: 10px;
+    height: 40px;
+    line-height: 40px;
+   
+    background-color: #565b67;
+   
+}
+.nav a{
+    width: 170px;
+    height: 40px;
+    display: block;
+    line-height: 40px;
+}
+.nav li a {
+    color: white;
+}
+.nav li:not(:last-child){
+    border-right: 1px solid rgba(128, 128, 128, 1);
+}
+
+.main_table{
+   
+    width: 820px;
+    height: 250px;
+    margin-top: 20px; 
+    float: left;
+}
+
+.rec_program{
+    width: 800px;
+    height: 50px;
+    display: flex;
+    line-height: 50px;
+    border-bottom: 1px solid gray;
+    font-weight: bold;
+}
+
+
+.rec_program li{
+    flex:1;
+    margin-left: 10px;
+}
+
+.more{
+    margin-left: 140px;
+    font-size: 12px;
+}
+
+.rec_table{
+    
+    display:flex;
+    width: 800px;
+    height: 150px;
+
+}
+
+.rec_table li{
+    flex:1;
+    display:flex;
+}
+
+    
+.rec_table li a{
+    margin: 10px;
+}
+.rec_table img{
+    width: 180px;
+    height: 130px;
+}
+
+.rec_name, .rec_price{
+    height: 20px;
+    width: 800px;
+    display: flex;
+    text-align: center;
+}
+
+.rec_name li, .rec_price li{
+    flex:1;
+}
+
+.rec_price li{
+    font-weight: bold;
+}
+
+.main_table2, .main_table3{
+   
+    width: 400px;
+    height: 260px;
+    margin-top: 10px;
+    float: left;
+}
+.board, .board2{
+    background: #b2b2b2;
+    width: 400px;
+    height: 50px;
+    display: flex;
+    line-height: 50px;
+    
+}
+
+.board li, .board2 li{
+    text-align: center;
+    font-weight: bold;
+    border: 1px solid #ddd; border-left: none; 
+    flex: 1;
+    border-left: 0px;
+    
+}
+.board li, .board2 li:first-child{border-left: 1px solid #ddd;}
+
+.board li a, .board2 li a{
+    display: block;
+    height: 49px;
+    border: none;
+}
+
+.on{
+    width: 198px;
+    height: 50px;
+    background: white;
+    border: 1px solid #ddd;
+    line-height: 50px;
+
+}
+.board_list, .board_list2{
+    background: white;
+    width: 399px;
+    height: 200px;
+}
+
+.board_list{
+    border-right: 1px solid #ddd;
+}
+
+.board_list li{
+    font-size: 15px;
+    line-height: 30px;
+    margin-left: 10px;
+}
+
+.right_table1{
+    float: right;
+    width: 360px;
+    height: 250px;
+    border: 1px solid #ddd;
+    margin: auto;
+    margin-top: 30px;
+}
+
+.login_register{
+    display: flex;
+}
+.login{
+    width: 100px;
+    height: 60px;
+    text-align: center;
+    line-height: 60px;
+    cursor: pointer;
+    font-weight: bold;
+    display: block;
+}
+
+.btn{
+    font-size: 14px;
+    padding: 15px 15px;
+    letter-spacing: 2px;
+    font-family: sans-serif;
+    color: black;
+    background: white;
+    border: none;
+    transition: all 0.3s;
+    font-weight: bold;
+}
+
+.btn:focus{
+    outline: none;
+}
+
+.btn:hover{
+   
+    background: #ddd;
+    border-radius: 10px;
+}
+
+.register{
+    width: 120px;
+    height: 60px;
+  
+    cursor: pointer;
+    margin-left: 20px;
+    text-align: center;
+    line-height: 60px;
+    
+}
+
+.register:hover{
+    width: 120px;
+    height: 60px;
+    height: gray;
+}
+
+.cs_center{
+    width: 120px;
+    height: 60px;
+  
+    cursor: pointer;
+    margin-left: 20px;
+    text-align: center;
+    line-height: 60px;
+}
+
+.cs_center:hover{
+    width: 120px;
+    height: 60px;
+    height: gray;
+}
+.vedio{
+    width: 350px;
+    height: 170px;
+    border: 1px solid #ddd;
+    text-align: center;
+    line-height: 60px;
+    margin: 5px;
+}
+
+
+.right_table2{
+    float: right;
+    width: 360px;
+    height: 240px;
+    border: 1px solid #ddd;
+    margin-top: 10px;
+}
+
+
+
+.board_list2 li{
+    font-size: 15px;
+    line-height: 30px;
+    margin-left: 10px;
+}
+
+.bottom {
+    width: 1200px;
+    height: 260px;
+    float: left;
+    margin-top: 20px;
+    border-top: 1px solid gray;
+}
+
+.bottom_text::after{
+    content: " | ";
+    color:black;
+}
+
+@media(max-width:1400px){
+    .intro{
+        margin-left: auto;
+    }
+}
